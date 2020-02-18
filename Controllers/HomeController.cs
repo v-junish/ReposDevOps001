@@ -20,23 +20,23 @@ namespace _20200131_asp.Controllers
 
         public IActionResult Index()
         {
-            System.Diagnostics.Trace.WriteLine("writeTraceLog_Nishikawa_Index");
+            //System.Diagnostics.Trace.WriteLine("writeTraceLog_Nishikawa_Index");
 
-            try {
-                EventLog myLog0 = new EventLog();
-                myLog0.Source = "Application";
-                // Write an informational entry to the event log.    
-                myLog0.WriteEntry("Writing to event Index0 Application");
-            } catch(Exception ex) {
-            };
+            //try {
+            //    EventLog myLog0 = new EventLog();
+            //    myLog0.Source = "Application";
+            //    // Write an informational entry to the event log.    
+            //    myLog0.WriteEntry("Writing to event Index0 Application");
+            //} catch(Exception ex) {
+            //};
 
-            try {
-                EventLog myLog0 = new EventLog();
-                myLog0.Source = "YSFAONLINE";
-                // Write an informational entry to the event log.    
-                myLog0.WriteEntry("Writing to event YSFAONLINE");
-            } catch(Exception ex) {
-            };
+            //try {
+            //    EventLog myLog0 = new EventLog();
+            //    myLog0.Source = "YSFAONLINE";
+            //    // Write an informational entry to the event log.    
+            //    myLog0.WriteEntry("Writing to event YSFAONLINE");
+            //} catch(Exception ex) {
+            //};
         
             // try {
             //     EventLog myLog = new EventLog();

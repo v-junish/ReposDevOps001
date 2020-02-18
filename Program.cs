@@ -14,7 +14,7 @@ namespace _20200131_asp
     {
         public static void Main(string[] args)
         {
-            System.Diagnostics.Trace.WriteLine("writeTraceLog_Nishikawa_1_console");
+            //System.Diagnostics.Trace.WriteLine("writeTraceLog_Nishikawa_1_console");
 
             // EventLog myLog = new EventLog();
             // myLog.Source = "Application";
